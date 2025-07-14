@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/form.css">
+    <script src="../Javascript/Javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!---------- Navbar & logo ---------->
+
+    <header class="logo">
+        <img src="/Bilder/logo.png" style="width: 130px;">
+    </header>
+
+    <nav class="nav">
+        <a href="javascript:void(0);" class="icon" onclick="menu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="nav_menu">
+            <a href="Home page.html">Hem</a>
+            <a href="Form.html">Turer</a>
+            <a href="#">Om oss</a>
+            <a href="#">Kontakt</a>
+        </div>
+
+    </nav>
+
+    <!---------- Main content ---------->
+    <form class="form" action="#">
+        <label for="name">Namn:</label><br>
+        <input type="text" id="name" name="name" placeholder="Ditt fullständiga namn..."><br>
+        <label for="telefon">Telefonummer:</label><br>
+        <input type="text" id="telefon" name="telefon" placeholder="Ditt telefonnummer..."><br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email" placeholder="Din email..."><br>
+        <label for="Message">Meddelande:</label><br>
+        <textarea id="Message" name="Message" placeholder="Valfritt meddelande..."></textarea><br>
+
+        <select name="antal" id="turer">
+            <option value="fiske 1">Gäddfiske</option>
+            <option value="fiske 2">Gösfiske</option>
+            <option value="fiske 3">Laxfiske</option>
+        </select>
+
+        <br>
+
+        <select name="antal" id="vuxna">
+            <option value="1 person">1 vuxen</option>
+            <option value="2 personer">2 vuxna</option>
+            <option value="3 personer">3 vuxna</option>
+            <option value="4 personer">4 vuxna</option>
+        </select>
+
+        <br>
+
+        <select name="antal" id="barn">
+            <option value="0 person">Inga barn</option>
+            <option value="1 person">1 barn</option>
+            <option value="2 personer">2 barn</option>
+            <option value="3 personer">3 barn</option>
+            <option value="4 personer">4 barn</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+
+    <!---------- Footer ---------->
+
+    <footer class="footer">
+            <h2>Länkar</h2>
+                <a href="Home page.html">Hem</a>
+                <a href="About.html">Om oss</a>
+                <a href="Form.html">Turer</a>
+                <a href="Contact.html">Kontakt</a>
+                <a>©2025 Copyright</a>
+    </footer>
+
+
+
+</body>
+</html>
